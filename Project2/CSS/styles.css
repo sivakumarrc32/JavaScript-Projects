@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+    font-family: digital-7;
+    src: url(digital-7/digital-7.ttf);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(208, 100%, 97%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    gap: 10px;
+}
+
+h2{
+    color: hsl(80, 80%, 70%);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.frame{
+    width: 600px;
+    height: 300px;
+    background-color: hsl(33, 100%, 90%);
+    padding: 10px;
+    border-radius: 100px;
+    border: 20px solid hsl(25, 100%, 80%);
+    font-size: 75px;
+    text-align: center;
+    line-height: 230px;
+    color: hsl(20, 100%, 50%);
+}
+
+.clock{
+    font-family: digital-7;
+}
